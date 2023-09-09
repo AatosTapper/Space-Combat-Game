@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libLogicManager.a CMakeFiles/LogicManager.dir/LogicManager.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libLogicManager.a

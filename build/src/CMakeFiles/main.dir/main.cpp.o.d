@@ -1,6 +1,6 @@
 src/CMakeFiles/main.dir/main.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/main.cpp \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Runtime/Runtime.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/App.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/assert.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/cdefs.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/_symbol_aliasing.h \
@@ -793,4 +793,34 @@ src/CMakeFiles/main.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Runtime/../Base/Base.h
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/Gameloop.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Renderer/Renderer.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/include/GLFW/glfw3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/availability.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/Scene.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/../Renderer/Color.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Scene/Scene.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../LogicManager/LogicManager.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Scene/Scene.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../PhysicsSolver/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../PhysicsSolver/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Renderer/Renderer.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Scene/Scene.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../LogicManager/LogicManager.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../PhysicsSolver/PhysicsSolver.h

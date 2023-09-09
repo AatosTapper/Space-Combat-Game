@@ -15,6 +15,11 @@ i8 m_check_null_arena(Arena* arena)
         return -1;
 }
 
+Arena* make_arena()
+{
+    return (Arena*)malloc(sizeof(Arena));
+}
+
 void arena_alloc(Arena* arena, u32 size)
 {
     arena->start_ptr = malloc(size);
@@ -50,6 +55,15 @@ void* arena_push(Arena* arena, void* ptr, u32 size)
     memcpy(arena->current_ptr, ptr, size);
     arena->current_ptr = start_char_pointer + size;
     return current_char_pointer;
+}
+
+void safe_free(void* ptr)
+{
+    if (ptr != nullptr)
+    {
+        free(ptr);
+        ptr = nullptr;
+    }   
 }
 
 } // namespace Base

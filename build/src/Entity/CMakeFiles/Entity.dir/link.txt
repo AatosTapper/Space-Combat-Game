@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libEntity.a CMakeFiles/Entity.dir/Entity.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libEntity.a

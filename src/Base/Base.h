@@ -1,4 +1,3 @@
-
 #ifndef BASE_H
 #define BASE_H
 
@@ -76,11 +75,14 @@ typedef struct Arena
     u32 size;
 } Arena;
 
+Arena* make_arena();
 void arena_alloc(Arena* arena, u32 size);
+// remember to also free the pointer after this
 void arena_free(Arena* arena);
-
 // user has to check for nullptr
 void* arena_push(Arena* arena, void* ptr, u32 size);
+
+void safe_free(void* ptr);
 
 } // namespace Base
 

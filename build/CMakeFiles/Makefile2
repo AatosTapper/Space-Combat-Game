@@ -79,20 +79,53 @@ clean: src/clean
 
 # Recursive "all" directory target.
 src/all: src/CMakeFiles/main.dir/all
-src/all: src/Runtime/all
+src/all: src/App/all
 src/all: src/Base/all
+src/all: src/Renderer/all
+src/all: src/Gameloop/all
+src/all: src/Entity/all
+src/all: src/Scene/all
+src/all: src/LogicManager/all
+src/all: src/PhysicsSolver/all
 .PHONY : src/all
 
 # Recursive "preinstall" directory target.
-src/preinstall: src/Runtime/preinstall
+src/preinstall: src/App/preinstall
 src/preinstall: src/Base/preinstall
+src/preinstall: src/Renderer/preinstall
+src/preinstall: src/Gameloop/preinstall
+src/preinstall: src/Entity/preinstall
+src/preinstall: src/Scene/preinstall
+src/preinstall: src/LogicManager/preinstall
+src/preinstall: src/PhysicsSolver/preinstall
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
 src/clean: src/CMakeFiles/main.dir/clean
-src/clean: src/Runtime/clean
+src/clean: src/App/clean
 src/clean: src/Base/clean
+src/clean: src/Renderer/clean
+src/clean: src/Gameloop/clean
+src/clean: src/Entity/clean
+src/clean: src/Scene/clean
+src/clean: src/LogicManager/clean
+src/clean: src/PhysicsSolver/clean
 .PHONY : src/clean
+
+#=============================================================================
+# Directory level rules for directory src/App
+
+# Recursive "all" directory target.
+src/App/all: src/App/CMakeFiles/App.dir/all
+.PHONY : src/App/all
+
+# Recursive "preinstall" directory target.
+src/App/preinstall:
+.PHONY : src/App/preinstall
+
+# Recursive "clean" directory target.
+src/App/clean: src/App/CMakeFiles/App.dir/clean
+.PHONY : src/App/clean
 
 #=============================================================================
 # Directory level rules for directory src/Base
@@ -110,34 +143,124 @@ src/Base/clean: src/Base/CMakeFiles/Base.dir/clean
 .PHONY : src/Base/clean
 
 #=============================================================================
-# Directory level rules for directory src/Runtime
+# Directory level rules for directory src/Entity
 
 # Recursive "all" directory target.
-src/Runtime/all: src/Runtime/CMakeFiles/Runtime.dir/all
-.PHONY : src/Runtime/all
+src/Entity/all: src/Entity/CMakeFiles/Entity.dir/all
+src/Entity/all: src/Entity/CMakeFiles/PhysicsObj.dir/all
+src/Entity/all: src/Entity/CMakeFiles/AiController.dir/all
+src/Entity/all: src/Entity/CMakeFiles/PlayerController.dir/all
+.PHONY : src/Entity/all
 
 # Recursive "preinstall" directory target.
-src/Runtime/preinstall:
-.PHONY : src/Runtime/preinstall
+src/Entity/preinstall:
+.PHONY : src/Entity/preinstall
 
 # Recursive "clean" directory target.
-src/Runtime/clean: src/Runtime/CMakeFiles/Runtime.dir/clean
-.PHONY : src/Runtime/clean
+src/Entity/clean: src/Entity/CMakeFiles/Entity.dir/clean
+src/Entity/clean: src/Entity/CMakeFiles/PhysicsObj.dir/clean
+src/Entity/clean: src/Entity/CMakeFiles/AiController.dir/clean
+src/Entity/clean: src/Entity/CMakeFiles/PlayerController.dir/clean
+.PHONY : src/Entity/clean
+
+#=============================================================================
+# Directory level rules for directory src/Gameloop
+
+# Recursive "all" directory target.
+src/Gameloop/all: src/Gameloop/CMakeFiles/Gameloop.dir/all
+.PHONY : src/Gameloop/all
+
+# Recursive "preinstall" directory target.
+src/Gameloop/preinstall:
+.PHONY : src/Gameloop/preinstall
+
+# Recursive "clean" directory target.
+src/Gameloop/clean: src/Gameloop/CMakeFiles/Gameloop.dir/clean
+.PHONY : src/Gameloop/clean
+
+#=============================================================================
+# Directory level rules for directory src/LogicManager
+
+# Recursive "all" directory target.
+src/LogicManager/all: src/LogicManager/CMakeFiles/LogicManager.dir/all
+.PHONY : src/LogicManager/all
+
+# Recursive "preinstall" directory target.
+src/LogicManager/preinstall:
+.PHONY : src/LogicManager/preinstall
+
+# Recursive "clean" directory target.
+src/LogicManager/clean: src/LogicManager/CMakeFiles/LogicManager.dir/clean
+.PHONY : src/LogicManager/clean
+
+#=============================================================================
+# Directory level rules for directory src/PhysicsSolver
+
+# Recursive "all" directory target.
+src/PhysicsSolver/all: src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/all
+.PHONY : src/PhysicsSolver/all
+
+# Recursive "preinstall" directory target.
+src/PhysicsSolver/preinstall:
+.PHONY : src/PhysicsSolver/preinstall
+
+# Recursive "clean" directory target.
+src/PhysicsSolver/clean: src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/clean
+.PHONY : src/PhysicsSolver/clean
+
+#=============================================================================
+# Directory level rules for directory src/Renderer
+
+# Recursive "all" directory target.
+src/Renderer/all: src/Renderer/CMakeFiles/Renderer.dir/all
+.PHONY : src/Renderer/all
+
+# Recursive "preinstall" directory target.
+src/Renderer/preinstall:
+.PHONY : src/Renderer/preinstall
+
+# Recursive "clean" directory target.
+src/Renderer/clean: src/Renderer/CMakeFiles/Renderer.dir/clean
+.PHONY : src/Renderer/clean
+
+#=============================================================================
+# Directory level rules for directory src/Scene
+
+# Recursive "all" directory target.
+src/Scene/all: src/Scene/CMakeFiles/Scene.dir/all
+.PHONY : src/Scene/all
+
+# Recursive "preinstall" directory target.
+src/Scene/preinstall:
+.PHONY : src/Scene/preinstall
+
+# Recursive "clean" directory target.
+src/Scene/clean: src/Scene/CMakeFiles/Scene.dir/clean
+.PHONY : src/Scene/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/main.dir
 
 # All Build rule for target.
-src/CMakeFiles/main.dir/all: src/Runtime/CMakeFiles/Runtime.dir/all
+src/CMakeFiles/main.dir/all: src/App/CMakeFiles/App.dir/all
 src/CMakeFiles/main.dir/all: src/Base/CMakeFiles/Base.dir/all
+src/CMakeFiles/main.dir/all: src/Renderer/CMakeFiles/Renderer.dir/all
+src/CMakeFiles/main.dir/all: src/Gameloop/CMakeFiles/Gameloop.dir/all
+src/CMakeFiles/main.dir/all: src/Entity/CMakeFiles/Entity.dir/all
+src/CMakeFiles/main.dir/all: src/Entity/CMakeFiles/PhysicsObj.dir/all
+src/CMakeFiles/main.dir/all: src/Entity/CMakeFiles/AiController.dir/all
+src/CMakeFiles/main.dir/all: src/Entity/CMakeFiles/PlayerController.dir/all
+src/CMakeFiles/main.dir/all: src/Scene/CMakeFiles/Scene.dir/all
+src/CMakeFiles/main.dir/all: src/LogicManager/CMakeFiles/LogicManager.dir/all
+src/CMakeFiles/main.dir/all: src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=5,6 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=23,24 "Built target main"
 .PHONY : src/CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 6
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
 .PHONY : src/CMakeFiles/main.dir/rule
@@ -152,30 +275,30 @@ src/CMakeFiles/main.dir/clean:
 .PHONY : src/CMakeFiles/main.dir/clean
 
 #=============================================================================
-# Target rules for target src/Runtime/CMakeFiles/Runtime.dir
+# Target rules for target src/App/CMakeFiles/App.dir
 
 # All Build rule for target.
-src/Runtime/CMakeFiles/Runtime.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/Runtime/CMakeFiles/Runtime.dir/build.make src/Runtime/CMakeFiles/Runtime.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/Runtime/CMakeFiles/Runtime.dir/build.make src/Runtime/CMakeFiles/Runtime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=3,4 "Built target Runtime"
-.PHONY : src/Runtime/CMakeFiles/Runtime.dir/all
+src/App/CMakeFiles/App.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/App/CMakeFiles/App.dir/build.make src/App/CMakeFiles/App.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/App/CMakeFiles/App.dir/build.make src/App/CMakeFiles/App.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=3,4 "Built target App"
+.PHONY : src/App/CMakeFiles/App.dir/all
 
 # Build rule for subdir invocation for target.
-src/Runtime/CMakeFiles/Runtime.dir/rule: cmake_check_build_system
+src/App/CMakeFiles/App.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Runtime/CMakeFiles/Runtime.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/App/CMakeFiles/App.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
-.PHONY : src/Runtime/CMakeFiles/Runtime.dir/rule
+.PHONY : src/App/CMakeFiles/App.dir/rule
 
 # Convenience name for target.
-Runtime: src/Runtime/CMakeFiles/Runtime.dir/rule
-.PHONY : Runtime
+App: src/App/CMakeFiles/App.dir/rule
+.PHONY : App
 
 # clean rule for target.
-src/Runtime/CMakeFiles/Runtime.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/Runtime/CMakeFiles/Runtime.dir/build.make src/Runtime/CMakeFiles/Runtime.dir/clean
-.PHONY : src/Runtime/CMakeFiles/Runtime.dir/clean
+src/App/CMakeFiles/App.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/App/CMakeFiles/App.dir/build.make src/App/CMakeFiles/App.dir/clean
+.PHONY : src/App/CMakeFiles/App.dir/clean
 
 #=============================================================================
 # Target rules for target src/Base/CMakeFiles/Base.dir
@@ -184,7 +307,7 @@ src/Runtime/CMakeFiles/Runtime.dir/clean:
 src/Base/CMakeFiles/Base.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Base/CMakeFiles/Base.dir/build.make src/Base/CMakeFiles/Base.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Base/CMakeFiles/Base.dir/build.make src/Base/CMakeFiles/Base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=1,2 "Built target Base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=5,6 "Built target Base"
 .PHONY : src/Base/CMakeFiles/Base.dir/all
 
 # Build rule for subdir invocation for target.
@@ -202,6 +325,240 @@ Base: src/Base/CMakeFiles/Base.dir/rule
 src/Base/CMakeFiles/Base.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/Base/CMakeFiles/Base.dir/build.make src/Base/CMakeFiles/Base.dir/clean
 .PHONY : src/Base/CMakeFiles/Base.dir/clean
+
+#=============================================================================
+# Target rules for target src/Renderer/CMakeFiles/Renderer.dir
+
+# All Build rule for target.
+src/Renderer/CMakeFiles/Renderer.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Renderer/CMakeFiles/Renderer.dir/build.make src/Renderer/CMakeFiles/Renderer.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Renderer/CMakeFiles/Renderer.dir/build.make src/Renderer/CMakeFiles/Renderer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=19,20 "Built target Renderer"
+.PHONY : src/Renderer/CMakeFiles/Renderer.dir/all
+
+# Build rule for subdir invocation for target.
+src/Renderer/CMakeFiles/Renderer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Renderer/CMakeFiles/Renderer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Renderer/CMakeFiles/Renderer.dir/rule
+
+# Convenience name for target.
+Renderer: src/Renderer/CMakeFiles/Renderer.dir/rule
+.PHONY : Renderer
+
+# clean rule for target.
+src/Renderer/CMakeFiles/Renderer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Renderer/CMakeFiles/Renderer.dir/build.make src/Renderer/CMakeFiles/Renderer.dir/clean
+.PHONY : src/Renderer/CMakeFiles/Renderer.dir/clean
+
+#=============================================================================
+# Target rules for target src/Gameloop/CMakeFiles/Gameloop.dir
+
+# All Build rule for target.
+src/Gameloop/CMakeFiles/Gameloop.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Gameloop/CMakeFiles/Gameloop.dir/build.make src/Gameloop/CMakeFiles/Gameloop.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Gameloop/CMakeFiles/Gameloop.dir/build.make src/Gameloop/CMakeFiles/Gameloop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=9,10 "Built target Gameloop"
+.PHONY : src/Gameloop/CMakeFiles/Gameloop.dir/all
+
+# Build rule for subdir invocation for target.
+src/Gameloop/CMakeFiles/Gameloop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Gameloop/CMakeFiles/Gameloop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Gameloop/CMakeFiles/Gameloop.dir/rule
+
+# Convenience name for target.
+Gameloop: src/Gameloop/CMakeFiles/Gameloop.dir/rule
+.PHONY : Gameloop
+
+# clean rule for target.
+src/Gameloop/CMakeFiles/Gameloop.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Gameloop/CMakeFiles/Gameloop.dir/build.make src/Gameloop/CMakeFiles/Gameloop.dir/clean
+.PHONY : src/Gameloop/CMakeFiles/Gameloop.dir/clean
+
+#=============================================================================
+# Target rules for target src/Entity/CMakeFiles/Entity.dir
+
+# All Build rule for target.
+src/Entity/CMakeFiles/Entity.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/Entity.dir/build.make src/Entity/CMakeFiles/Entity.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/Entity.dir/build.make src/Entity/CMakeFiles/Entity.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=7,8 "Built target Entity"
+.PHONY : src/Entity/CMakeFiles/Entity.dir/all
+
+# Build rule for subdir invocation for target.
+src/Entity/CMakeFiles/Entity.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/Entity.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Entity/CMakeFiles/Entity.dir/rule
+
+# Convenience name for target.
+Entity: src/Entity/CMakeFiles/Entity.dir/rule
+.PHONY : Entity
+
+# clean rule for target.
+src/Entity/CMakeFiles/Entity.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/Entity.dir/build.make src/Entity/CMakeFiles/Entity.dir/clean
+.PHONY : src/Entity/CMakeFiles/Entity.dir/clean
+
+#=============================================================================
+# Target rules for target src/Entity/CMakeFiles/PhysicsObj.dir
+
+# All Build rule for target.
+src/Entity/CMakeFiles/PhysicsObj.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=13,14 "Built target PhysicsObj"
+.PHONY : src/Entity/CMakeFiles/PhysicsObj.dir/all
+
+# Build rule for subdir invocation for target.
+src/Entity/CMakeFiles/PhysicsObj.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/PhysicsObj.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Entity/CMakeFiles/PhysicsObj.dir/rule
+
+# Convenience name for target.
+PhysicsObj: src/Entity/CMakeFiles/PhysicsObj.dir/rule
+.PHONY : PhysicsObj
+
+# clean rule for target.
+src/Entity/CMakeFiles/PhysicsObj.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/clean
+.PHONY : src/Entity/CMakeFiles/PhysicsObj.dir/clean
+
+#=============================================================================
+# Target rules for target src/Entity/CMakeFiles/AiController.dir
+
+# All Build rule for target.
+src/Entity/CMakeFiles/AiController.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=1,2 "Built target AiController"
+.PHONY : src/Entity/CMakeFiles/AiController.dir/all
+
+# Build rule for subdir invocation for target.
+src/Entity/CMakeFiles/AiController.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/AiController.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Entity/CMakeFiles/AiController.dir/rule
+
+# Convenience name for target.
+AiController: src/Entity/CMakeFiles/AiController.dir/rule
+.PHONY : AiController
+
+# clean rule for target.
+src/Entity/CMakeFiles/AiController.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/clean
+.PHONY : src/Entity/CMakeFiles/AiController.dir/clean
+
+#=============================================================================
+# Target rules for target src/Entity/CMakeFiles/PlayerController.dir
+
+# All Build rule for target.
+src/Entity/CMakeFiles/PlayerController.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=17,18 "Built target PlayerController"
+.PHONY : src/Entity/CMakeFiles/PlayerController.dir/all
+
+# Build rule for subdir invocation for target.
+src/Entity/CMakeFiles/PlayerController.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/PlayerController.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Entity/CMakeFiles/PlayerController.dir/rule
+
+# Convenience name for target.
+PlayerController: src/Entity/CMakeFiles/PlayerController.dir/rule
+.PHONY : PlayerController
+
+# clean rule for target.
+src/Entity/CMakeFiles/PlayerController.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/clean
+.PHONY : src/Entity/CMakeFiles/PlayerController.dir/clean
+
+#=============================================================================
+# Target rules for target src/Scene/CMakeFiles/Scene.dir
+
+# All Build rule for target.
+src/Scene/CMakeFiles/Scene.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Scene/CMakeFiles/Scene.dir/build.make src/Scene/CMakeFiles/Scene.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Scene/CMakeFiles/Scene.dir/build.make src/Scene/CMakeFiles/Scene.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=21,22 "Built target Scene"
+.PHONY : src/Scene/CMakeFiles/Scene.dir/all
+
+# Build rule for subdir invocation for target.
+src/Scene/CMakeFiles/Scene.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Scene/CMakeFiles/Scene.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/Scene/CMakeFiles/Scene.dir/rule
+
+# Convenience name for target.
+Scene: src/Scene/CMakeFiles/Scene.dir/rule
+.PHONY : Scene
+
+# clean rule for target.
+src/Scene/CMakeFiles/Scene.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Scene/CMakeFiles/Scene.dir/build.make src/Scene/CMakeFiles/Scene.dir/clean
+.PHONY : src/Scene/CMakeFiles/Scene.dir/clean
+
+#=============================================================================
+# Target rules for target src/LogicManager/CMakeFiles/LogicManager.dir
+
+# All Build rule for target.
+src/LogicManager/CMakeFiles/LogicManager.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/LogicManager/CMakeFiles/LogicManager.dir/build.make src/LogicManager/CMakeFiles/LogicManager.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/LogicManager/CMakeFiles/LogicManager.dir/build.make src/LogicManager/CMakeFiles/LogicManager.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=11,12 "Built target LogicManager"
+.PHONY : src/LogicManager/CMakeFiles/LogicManager.dir/all
+
+# Build rule for subdir invocation for target.
+src/LogicManager/CMakeFiles/LogicManager.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/LogicManager/CMakeFiles/LogicManager.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/LogicManager/CMakeFiles/LogicManager.dir/rule
+
+# Convenience name for target.
+LogicManager: src/LogicManager/CMakeFiles/LogicManager.dir/rule
+.PHONY : LogicManager
+
+# clean rule for target.
+src/LogicManager/CMakeFiles/LogicManager.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/LogicManager/CMakeFiles/LogicManager.dir/build.make src/LogicManager/CMakeFiles/LogicManager.dir/clean
+.PHONY : src/LogicManager/CMakeFiles/LogicManager.dir/clean
+
+#=============================================================================
+# Target rules for target src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir
+
+# All Build rule for target.
+src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build.make src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build.make src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=15,16 "Built target PhysicsSolver"
+.PHONY : src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/all
+
+# Build rule for subdir invocation for target.
+src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
+.PHONY : src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/rule
+
+# Convenience name for target.
+PhysicsSolver: src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/rule
+.PHONY : PhysicsSolver
+
+# clean rule for target.
+src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build.make src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/clean
+.PHONY : src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

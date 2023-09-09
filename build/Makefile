@@ -130,17 +130,17 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
-# Target rules for targets named Runtime
+# Target rules for targets named App
 
 # Build rule for target.
-Runtime: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Runtime
-.PHONY : Runtime
+App: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 App
+.PHONY : App
 
 # fast build rule for target.
-Runtime/fast:
-	$(MAKE) $(MAKESILENT) -f src/Runtime/CMakeFiles/Runtime.dir/build.make src/Runtime/CMakeFiles/Runtime.dir/build
-.PHONY : Runtime/fast
+App/fast:
+	$(MAKE) $(MAKESILENT) -f src/App/CMakeFiles/App.dir/build.make src/App/CMakeFiles/App.dir/build
+.PHONY : App/fast
 
 #=============================================================================
 # Target rules for targets named Base
@@ -155,6 +155,123 @@ Base/fast:
 	$(MAKE) $(MAKESILENT) -f src/Base/CMakeFiles/Base.dir/build.make src/Base/CMakeFiles/Base.dir/build
 .PHONY : Base/fast
 
+#=============================================================================
+# Target rules for targets named Renderer
+
+# Build rule for target.
+Renderer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Renderer
+.PHONY : Renderer
+
+# fast build rule for target.
+Renderer/fast:
+	$(MAKE) $(MAKESILENT) -f src/Renderer/CMakeFiles/Renderer.dir/build.make src/Renderer/CMakeFiles/Renderer.dir/build
+.PHONY : Renderer/fast
+
+#=============================================================================
+# Target rules for targets named Gameloop
+
+# Build rule for target.
+Gameloop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Gameloop
+.PHONY : Gameloop
+
+# fast build rule for target.
+Gameloop/fast:
+	$(MAKE) $(MAKESILENT) -f src/Gameloop/CMakeFiles/Gameloop.dir/build.make src/Gameloop/CMakeFiles/Gameloop.dir/build
+.PHONY : Gameloop/fast
+
+#=============================================================================
+# Target rules for targets named Entity
+
+# Build rule for target.
+Entity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Entity
+.PHONY : Entity
+
+# fast build rule for target.
+Entity/fast:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/Entity.dir/build.make src/Entity/CMakeFiles/Entity.dir/build
+.PHONY : Entity/fast
+
+#=============================================================================
+# Target rules for targets named PhysicsObj
+
+# Build rule for target.
+PhysicsObj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PhysicsObj
+.PHONY : PhysicsObj
+
+# fast build rule for target.
+PhysicsObj/fast:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/build
+.PHONY : PhysicsObj/fast
+
+#=============================================================================
+# Target rules for targets named AiController
+
+# Build rule for target.
+AiController: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AiController
+.PHONY : AiController
+
+# fast build rule for target.
+AiController/fast:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/build
+.PHONY : AiController/fast
+
+#=============================================================================
+# Target rules for targets named PlayerController
+
+# Build rule for target.
+PlayerController: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PlayerController
+.PHONY : PlayerController
+
+# fast build rule for target.
+PlayerController/fast:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/build
+.PHONY : PlayerController/fast
+
+#=============================================================================
+# Target rules for targets named Scene
+
+# Build rule for target.
+Scene: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Scene
+.PHONY : Scene
+
+# fast build rule for target.
+Scene/fast:
+	$(MAKE) $(MAKESILENT) -f src/Scene/CMakeFiles/Scene.dir/build.make src/Scene/CMakeFiles/Scene.dir/build
+.PHONY : Scene/fast
+
+#=============================================================================
+# Target rules for targets named LogicManager
+
+# Build rule for target.
+LogicManager: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LogicManager
+.PHONY : LogicManager
+
+# fast build rule for target.
+LogicManager/fast:
+	$(MAKE) $(MAKESILENT) -f src/LogicManager/CMakeFiles/LogicManager.dir/build.make src/LogicManager/CMakeFiles/LogicManager.dir/build
+.PHONY : LogicManager/fast
+
+#=============================================================================
+# Target rules for targets named PhysicsSolver
+
+# Build rule for target.
+PhysicsSolver: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PhysicsSolver
+.PHONY : PhysicsSolver
+
+# fast build rule for target.
+PhysicsSolver/fast:
+	$(MAKE) $(MAKESILENT) -f src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build.make src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build
+.PHONY : PhysicsSolver/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,8 +280,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... AiController"
+	@echo "... App"
 	@echo "... Base"
-	@echo "... Runtime"
+	@echo "... Entity"
+	@echo "... Gameloop"
+	@echo "... LogicManager"
+	@echo "... PhysicsObj"
+	@echo "... PhysicsSolver"
+	@echo "... PlayerController"
+	@echo "... Renderer"
+	@echo "... Scene"
 	@echo "... main"
 .PHONY : help
 

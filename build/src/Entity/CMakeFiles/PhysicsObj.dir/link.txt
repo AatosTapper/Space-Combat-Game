@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libPhysicsObj.a CMakeFiles/PhysicsObj.dir/PhysicsObj.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libPhysicsObj.a

@@ -39,8 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Runtime/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/App/cmake_install.cmake")
   include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Base/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Renderer/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Gameloop/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Entity/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Scene/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/LogicManager/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/PhysicsSolver/cmake_install.cmake")
 
 endif()
 

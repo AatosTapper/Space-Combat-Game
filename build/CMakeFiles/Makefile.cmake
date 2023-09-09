@@ -35,9 +35,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/App/CMakeLists.txt"
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base/CMakeLists.txt"
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/CMakeLists.txt"
-  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Runtime/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Gameloop/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/LogicManager/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Renderer/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -50,13 +56,28 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/Runtime/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/App/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Base/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Renderer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Gameloop/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Entity/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Scene/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/LogicManager/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/PhysicsSolver/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/main.dir/DependInfo.cmake"
-  "src/Runtime/CMakeFiles/Runtime.dir/DependInfo.cmake"
+  "src/App/CMakeFiles/App.dir/DependInfo.cmake"
   "src/Base/CMakeFiles/Base.dir/DependInfo.cmake"
+  "src/Renderer/CMakeFiles/Renderer.dir/DependInfo.cmake"
+  "src/Gameloop/CMakeFiles/Gameloop.dir/DependInfo.cmake"
+  "src/Entity/CMakeFiles/Entity.dir/DependInfo.cmake"
+  "src/Entity/CMakeFiles/PhysicsObj.dir/DependInfo.cmake"
+  "src/Entity/CMakeFiles/AiController.dir/DependInfo.cmake"
+  "src/Entity/CMakeFiles/PlayerController.dir/DependInfo.cmake"
+  "src/Scene/CMakeFiles/Scene.dir/DependInfo.cmake"
+  "src/LogicManager/CMakeFiles/LogicManager.dir/DependInfo.cmake"
+  "src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/DependInfo.cmake"
   )

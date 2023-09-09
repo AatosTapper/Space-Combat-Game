@@ -92,8 +92,17 @@ main_EXTERNAL_OBJECTS =
 
 main: src/CMakeFiles/main.dir/main.cpp.o
 main: src/CMakeFiles/main.dir/build.make
-main: src/Runtime/libRuntime.a
+main: src/App/libApp.a
 main: src/Base/libBase.a
+main: src/Renderer/libRenderer.a
+main: src/Gameloop/libGameloop.a
+main: src/Entity/libEntity.a
+main: src/Entity/libPhysicsObj.a
+main: src/Entity/libAiController.a
+main: src/Entity/libPlayerController.a
+main: src/Scene/libScene.a
+main: src/LogicManager/libLogicManager.a
+main: src/PhysicsSolver/libPhysicsSolver.a
 main: /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/lib-arm64/libglfw3.a
 main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../main"
