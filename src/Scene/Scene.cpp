@@ -9,7 +9,7 @@ Scene::Scene()
 Scene::~Scene()
 {
     m_free_entities();
-    Base::safe_delete(m_entities);
+    Base::safe_delete<std::__1::vector<Entity *>>(m_entities);
 }
 
 std::vector<Entity*>* Scene::get_entities()
@@ -27,5 +27,5 @@ void Scene::add_entity(Entity* e)
 void Scene::m_free_entities()
 {
     for (auto e : *m_entities)
-        Base::safe_delete(e);
+        Base::safe_delete<Entity>(e);
 }

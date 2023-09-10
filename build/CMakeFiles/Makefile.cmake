@@ -41,7 +41,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/CMakeLists.txt"
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Gameloop/CMakeLists.txt"
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/LogicManager/CMakeLists.txt"
-  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/CMakeLists.txt"
+  "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics/CMakeLists.txt"
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Renderer/CMakeLists.txt"
   "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene/CMakeLists.txt"
   )
@@ -63,7 +63,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "src/Entity/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Scene/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/LogicManager/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "src/PhysicsSolver/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Physics/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -74,10 +74,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Renderer/CMakeFiles/Renderer.dir/DependInfo.cmake"
   "src/Gameloop/CMakeFiles/Gameloop.dir/DependInfo.cmake"
   "src/Entity/CMakeFiles/Entity.dir/DependInfo.cmake"
-  "src/Entity/CMakeFiles/PhysicsObj.dir/DependInfo.cmake"
-  "src/Entity/CMakeFiles/AiController.dir/DependInfo.cmake"
-  "src/Entity/CMakeFiles/PlayerController.dir/DependInfo.cmake"
+  "src/Entity/CMakeFiles/AiEntity.dir/DependInfo.cmake"
+  "src/Entity/CMakeFiles/PlayerEntity.dir/DependInfo.cmake"
   "src/Scene/CMakeFiles/Scene.dir/DependInfo.cmake"
   "src/LogicManager/CMakeFiles/LogicManager.dir/DependInfo.cmake"
-  "src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/DependInfo.cmake"
+  "src/Physics/CMakeFiles/PhysicsSolver.dir/DependInfo.cmake"
+  "src/Physics/CMakeFiles/PhysicsObj.dir/DependInfo.cmake"
+  "src/Physics/CMakeFiles/RK4.dir/DependInfo.cmake"
   )

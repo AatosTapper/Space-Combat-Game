@@ -811,7 +811,8 @@ src/CMakeFiles/main.dir/main.cpp.o
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base/Base.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base/Base.h
- /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h
+ /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h
+ /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base/Base.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h
@@ -819,12 +820,12 @@ src/CMakeFiles/main.dir/main.cpp.o
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base/Base.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h
- /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h
- /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base/Base.h
+ /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h
- /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h
+ /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h
+ /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Renderer/Renderer.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h
  /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/LogicManager/LogicManager.h
- /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h
+ /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h
 

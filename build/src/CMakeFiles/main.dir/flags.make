@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/dep/include/GLFW" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/App" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Renderer" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Gameloop" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/LogicManager" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/PhysicsSolver"
+CXX_INCLUDES = -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/dep/include/GLFW" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/App" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Base" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Renderer" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Gameloop" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Entity" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Scene" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/LogicManager" -I"/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/src/Physics"
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.4
 

@@ -795,14 +795,13 @@ src/Entity/CMakeFiles/Entity.dir/Entity.cpp.o: /Users/aatos/VSCode\ C++/project-
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h
 
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h:
-
-/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg:
 
@@ -1459,6 +1458,8 @@ src/Entity/CMakeFiles/Entity.dir/Entity.cpp.o: /Users/aatos/VSCode\ C++/project-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory/ranges_uninitialized_algorithms.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__compare/common_comparison_category.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/distance.h:
 

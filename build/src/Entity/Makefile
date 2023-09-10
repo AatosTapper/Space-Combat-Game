@@ -131,70 +131,56 @@ Entity/fast:
 .PHONY : Entity/fast
 
 # Convenience name for target.
-src/Entity/CMakeFiles/PhysicsObj.dir/rule:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/PhysicsObj.dir/rule
-.PHONY : src/Entity/CMakeFiles/PhysicsObj.dir/rule
+src/Entity/CMakeFiles/AiEntity.dir/rule:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/AiEntity.dir/rule
+.PHONY : src/Entity/CMakeFiles/AiEntity.dir/rule
 
 # Convenience name for target.
-PhysicsObj: src/Entity/CMakeFiles/PhysicsObj.dir/rule
-.PHONY : PhysicsObj
+AiEntity: src/Entity/CMakeFiles/AiEntity.dir/rule
+.PHONY : AiEntity
 
 # fast build rule for target.
-PhysicsObj/fast:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/build
-.PHONY : PhysicsObj/fast
+AiEntity/fast:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiEntity.dir/build.make src/Entity/CMakeFiles/AiEntity.dir/build
+.PHONY : AiEntity/fast
 
 # Convenience name for target.
-src/Entity/CMakeFiles/AiController.dir/rule:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/AiController.dir/rule
-.PHONY : src/Entity/CMakeFiles/AiController.dir/rule
+src/Entity/CMakeFiles/PlayerEntity.dir/rule:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/PlayerEntity.dir/rule
+.PHONY : src/Entity/CMakeFiles/PlayerEntity.dir/rule
 
 # Convenience name for target.
-AiController: src/Entity/CMakeFiles/AiController.dir/rule
-.PHONY : AiController
+PlayerEntity: src/Entity/CMakeFiles/PlayerEntity.dir/rule
+.PHONY : PlayerEntity
 
 # fast build rule for target.
-AiController/fast:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/build
-.PHONY : AiController/fast
+PlayerEntity/fast:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerEntity.dir/build.make src/Entity/CMakeFiles/PlayerEntity.dir/build
+.PHONY : PlayerEntity/fast
 
-# Convenience name for target.
-src/Entity/CMakeFiles/PlayerController.dir/rule:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Entity/CMakeFiles/PlayerController.dir/rule
-.PHONY : src/Entity/CMakeFiles/PlayerController.dir/rule
-
-# Convenience name for target.
-PlayerController: src/Entity/CMakeFiles/PlayerController.dir/rule
-.PHONY : PlayerController
-
-# fast build rule for target.
-PlayerController/fast:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/build
-.PHONY : PlayerController/fast
-
-AiController.o: AiController.cpp.o
-.PHONY : AiController.o
+AiEntity.o: AiEntity.cpp.o
+.PHONY : AiEntity.o
 
 # target to build an object file
-AiController.cpp.o:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/AiController.cpp.o
-.PHONY : AiController.cpp.o
+AiEntity.cpp.o:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiEntity.dir/build.make src/Entity/CMakeFiles/AiEntity.dir/AiEntity.cpp.o
+.PHONY : AiEntity.cpp.o
 
-AiController.i: AiController.cpp.i
-.PHONY : AiController.i
+AiEntity.i: AiEntity.cpp.i
+.PHONY : AiEntity.i
 
 # target to preprocess a source file
-AiController.cpp.i:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/AiController.cpp.i
-.PHONY : AiController.cpp.i
+AiEntity.cpp.i:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiEntity.dir/build.make src/Entity/CMakeFiles/AiEntity.dir/AiEntity.cpp.i
+.PHONY : AiEntity.cpp.i
 
-AiController.s: AiController.cpp.s
-.PHONY : AiController.s
+AiEntity.s: AiEntity.cpp.s
+.PHONY : AiEntity.s
 
 # target to generate assembly for a file
-AiController.cpp.s:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/AiController.cpp.s
-.PHONY : AiController.cpp.s
+AiEntity.cpp.s:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiEntity.dir/build.make src/Entity/CMakeFiles/AiEntity.dir/AiEntity.cpp.s
+.PHONY : AiEntity.cpp.s
 
 Entity.o: Entity.cpp.o
 .PHONY : Entity.o
@@ -220,53 +206,29 @@ Entity.cpp.s:
 	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/Entity.dir/build.make src/Entity/CMakeFiles/Entity.dir/Entity.cpp.s
 .PHONY : Entity.cpp.s
 
-PhysicsObj.o: PhysicsObj.cpp.o
-.PHONY : PhysicsObj.o
+PlayerEntity.o: PlayerEntity.cpp.o
+.PHONY : PlayerEntity.o
 
 # target to build an object file
-PhysicsObj.cpp.o:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/PhysicsObj.cpp.o
-.PHONY : PhysicsObj.cpp.o
+PlayerEntity.cpp.o:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerEntity.dir/build.make src/Entity/CMakeFiles/PlayerEntity.dir/PlayerEntity.cpp.o
+.PHONY : PlayerEntity.cpp.o
 
-PhysicsObj.i: PhysicsObj.cpp.i
-.PHONY : PhysicsObj.i
-
-# target to preprocess a source file
-PhysicsObj.cpp.i:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/PhysicsObj.cpp.i
-.PHONY : PhysicsObj.cpp.i
-
-PhysicsObj.s: PhysicsObj.cpp.s
-.PHONY : PhysicsObj.s
-
-# target to generate assembly for a file
-PhysicsObj.cpp.s:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/PhysicsObj.cpp.s
-.PHONY : PhysicsObj.cpp.s
-
-PlayerController.o: PlayerController.cpp.o
-.PHONY : PlayerController.o
-
-# target to build an object file
-PlayerController.cpp.o:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/PlayerController.cpp.o
-.PHONY : PlayerController.cpp.o
-
-PlayerController.i: PlayerController.cpp.i
-.PHONY : PlayerController.i
+PlayerEntity.i: PlayerEntity.cpp.i
+.PHONY : PlayerEntity.i
 
 # target to preprocess a source file
-PlayerController.cpp.i:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/PlayerController.cpp.i
-.PHONY : PlayerController.cpp.i
+PlayerEntity.cpp.i:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerEntity.dir/build.make src/Entity/CMakeFiles/PlayerEntity.dir/PlayerEntity.cpp.i
+.PHONY : PlayerEntity.cpp.i
 
-PlayerController.s: PlayerController.cpp.s
-.PHONY : PlayerController.s
+PlayerEntity.s: PlayerEntity.cpp.s
+.PHONY : PlayerEntity.s
 
 # target to generate assembly for a file
-PlayerController.cpp.s:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/PlayerController.cpp.s
-.PHONY : PlayerController.cpp.s
+PlayerEntity.cpp.s:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerEntity.dir/build.make src/Entity/CMakeFiles/PlayerEntity.dir/PlayerEntity.cpp.s
+.PHONY : PlayerEntity.cpp.s
 
 # Help Target
 help:
@@ -276,22 +238,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... AiController"
+	@echo "... AiEntity"
 	@echo "... Entity"
-	@echo "... PhysicsObj"
-	@echo "... PlayerController"
-	@echo "... AiController.o"
-	@echo "... AiController.i"
-	@echo "... AiController.s"
+	@echo "... PlayerEntity"
+	@echo "... AiEntity.o"
+	@echo "... AiEntity.i"
+	@echo "... AiEntity.s"
 	@echo "... Entity.o"
 	@echo "... Entity.i"
 	@echo "... Entity.s"
-	@echo "... PhysicsObj.o"
-	@echo "... PhysicsObj.i"
-	@echo "... PhysicsObj.s"
-	@echo "... PlayerController.o"
-	@echo "... PlayerController.i"
-	@echo "... PlayerController.s"
+	@echo "... PlayerEntity.o"
+	@echo "... PlayerEntity.i"
+	@echo "... PlayerEntity.s"
 .PHONY : help
 
 

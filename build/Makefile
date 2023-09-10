@@ -195,43 +195,30 @@ Entity/fast:
 .PHONY : Entity/fast
 
 #=============================================================================
-# Target rules for targets named PhysicsObj
+# Target rules for targets named AiEntity
 
 # Build rule for target.
-PhysicsObj: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PhysicsObj
-.PHONY : PhysicsObj
+AiEntity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AiEntity
+.PHONY : AiEntity
 
 # fast build rule for target.
-PhysicsObj/fast:
-	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PhysicsObj.dir/build.make src/Entity/CMakeFiles/PhysicsObj.dir/build
-.PHONY : PhysicsObj/fast
+AiEntity/fast:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiEntity.dir/build.make src/Entity/CMakeFiles/AiEntity.dir/build
+.PHONY : AiEntity/fast
 
 #=============================================================================
-# Target rules for targets named AiController
+# Target rules for targets named PlayerEntity
 
 # Build rule for target.
-AiController: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 AiController
-.PHONY : AiController
+PlayerEntity: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PlayerEntity
+.PHONY : PlayerEntity
 
 # fast build rule for target.
-AiController/fast:
-	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/AiController.dir/build.make src/Entity/CMakeFiles/AiController.dir/build
-.PHONY : AiController/fast
-
-#=============================================================================
-# Target rules for targets named PlayerController
-
-# Build rule for target.
-PlayerController: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PlayerController
-.PHONY : PlayerController
-
-# fast build rule for target.
-PlayerController/fast:
-	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerController.dir/build.make src/Entity/CMakeFiles/PlayerController.dir/build
-.PHONY : PlayerController/fast
+PlayerEntity/fast:
+	$(MAKE) $(MAKESILENT) -f src/Entity/CMakeFiles/PlayerEntity.dir/build.make src/Entity/CMakeFiles/PlayerEntity.dir/build
+.PHONY : PlayerEntity/fast
 
 #=============================================================================
 # Target rules for targets named Scene
@@ -269,8 +256,34 @@ PhysicsSolver: cmake_check_build_system
 
 # fast build rule for target.
 PhysicsSolver/fast:
-	$(MAKE) $(MAKESILENT) -f src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build.make src/PhysicsSolver/CMakeFiles/PhysicsSolver.dir/build
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/build
 .PHONY : PhysicsSolver/fast
+
+#=============================================================================
+# Target rules for targets named PhysicsObj
+
+# Build rule for target.
+PhysicsObj: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PhysicsObj
+.PHONY : PhysicsObj
+
+# fast build rule for target.
+PhysicsObj/fast:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsObj.dir/build.make src/Physics/CMakeFiles/PhysicsObj.dir/build
+.PHONY : PhysicsObj/fast
+
+#=============================================================================
+# Target rules for targets named RK4
+
+# Build rule for target.
+RK4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RK4
+.PHONY : RK4
+
+# fast build rule for target.
+RK4/fast:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/RK4.dir/build.make src/Physics/CMakeFiles/RK4.dir/build
+.PHONY : RK4/fast
 
 # Help Target
 help:
@@ -280,7 +293,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... AiController"
+	@echo "... AiEntity"
 	@echo "... App"
 	@echo "... Base"
 	@echo "... Entity"
@@ -288,7 +301,8 @@ help:
 	@echo "... LogicManager"
 	@echo "... PhysicsObj"
 	@echo "... PhysicsSolver"
-	@echo "... PlayerController"
+	@echo "... PlayerEntity"
+	@echo "... RK4"
 	@echo "... Renderer"
 	@echo "... Scene"
 	@echo "... main"

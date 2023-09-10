@@ -795,6 +795,7 @@ src/Scene/CMakeFiles/Scene.dir/Scene.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Base/Base.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Physics/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Physics/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Renderer/../Base/Base.h

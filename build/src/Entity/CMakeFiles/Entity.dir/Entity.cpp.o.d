@@ -793,6 +793,7 @@ src/Entity/CMakeFiles/Entity.dir/Entity.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/../Physics/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/../Physics/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/../Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/../Renderer/../Base/Base.h

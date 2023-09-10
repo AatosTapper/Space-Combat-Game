@@ -14,9 +14,8 @@ target_link_libraries(main PRIVATE Gameloop)
 
 add_subdirectory(Entity)
 target_link_libraries(main PRIVATE Entity)
-target_link_libraries(main PRIVATE PhysicsObj)
-target_link_libraries(main PRIVATE AiController)
-target_link_libraries(main PRIVATE PlayerController)
+target_link_libraries(main PRIVATE AiEntity)
+target_link_libraries(main PRIVATE PlayerEntity)
 
 add_subdirectory(Scene)
 target_link_libraries(main PRIVATE Scene)
@@ -24,8 +23,10 @@ target_link_libraries(main PRIVATE Scene)
 add_subdirectory(LogicManager)
 target_link_libraries(main PRIVATE LogicManager)
 
-add_subdirectory(PhysicsSolver)
+add_subdirectory(Physics)
 target_link_libraries(main PRIVATE PhysicsSolver)
+target_link_libraries(main PRIVATE PhysicsObj)
+target_link_libraries(main PRIVATE RK4)
 
 
 target_link_libraries(main PRIVATE ${GLFW_LIBRARY})

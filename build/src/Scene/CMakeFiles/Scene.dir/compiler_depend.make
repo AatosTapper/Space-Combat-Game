@@ -797,14 +797,13 @@ src/Scene/CMakeFiles/Scene.dir/Scene.cpp.o: /Users/aatos/VSCode\ C++/project-man
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h
 
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h:
-
-/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h:
 
@@ -1619,6 +1618,8 @@ src/Scene/CMakeFiles/Scene.dir/Scene.cpp.o: /Users/aatos/VSCode\ C++/project-man
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__ranges/access.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__iterator/distance.h:
 

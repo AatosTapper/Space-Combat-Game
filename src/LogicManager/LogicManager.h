@@ -4,7 +4,7 @@
 #include "../Base/Base.h"
 #include "../Scene/Scene.h"
 #include "../Entity/Entity.h"
-#include "../PhysicsSolver/PhysicsSolver.h"
+#include "../Physics/PhysicsSolver.h"
 
 class LogicManager
 {
@@ -12,7 +12,7 @@ public:
     LogicManager(Scene* s);
     ~LogicManager();
 
-    void frame_update(Scene* s, PhysicsSolver* p);
+    void frame_update(Scene* s, PhysicsSolver* p, const f64 &dt);
 
 private:
     void m_update_entities(Scene* s);

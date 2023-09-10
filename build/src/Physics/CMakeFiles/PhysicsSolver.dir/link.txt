@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libPhysicsSolver.a CMakeFiles/PhysicsSolver.dir/PhysicsSolver.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libPhysicsSolver.a

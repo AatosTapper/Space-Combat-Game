@@ -46,7 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Entity/cmake_install.cmake")
   include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Scene/cmake_install.cmake")
   include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/LogicManager/cmake_install.cmake")
-  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/PhysicsSolver/cmake_install.cmake")
+  include("/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/cmake_install.cmake")
 
 endif()
 

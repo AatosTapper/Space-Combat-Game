@@ -57,22 +57,4 @@ void* arena_push(Arena* arena, void* ptr, u32 size)
     return current_char_pointer;
 }
 
-void safe_free(void* ptr)
-{
-    if (ptr != nullptr)
-    {
-        free(ptr);
-        ptr = nullptr;
-    }   
-}
-
-void safe_delete(void* ptr)
-{
-    if (ptr != nullptr)
-    {
-        delete(ptr);
-        ptr = nullptr;
-    }   
-}
-
 } // namespace Base

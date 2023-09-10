@@ -18,10 +18,10 @@ void run()
 
 void clean()
 {
-    Base::safe_delete(r);
-    Base::safe_delete(s);
-    Base::safe_delete(lm);
-    Base::safe_delete(p);
+    Base::safe_delete<Renderer>(r);
+    Base::safe_delete<Scene>(s);
+    Base::safe_delete<LogicManager>(lm);
+    Base::safe_delete<PhysicsSolver>(p);
 }
 
 void run_app()

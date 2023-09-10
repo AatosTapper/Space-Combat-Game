@@ -810,7 +810,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h \
@@ -818,17 +819,17 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Renderer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/LogicManager.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h
 
 
-/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PhysicsObj.h:
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h:
 
@@ -1874,6 +1875,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
 
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdio:
@@ -2078,6 +2081,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__memory_resource/polymorphic_allocator.h:
 
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsObj.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/equality_comparable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/decay.h:
@@ -2269,8 +2274,6 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/cdefs.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/sys/syslimits.h:
-
-/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/PhysicsSolver/PhysicsSolver.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/version:
 

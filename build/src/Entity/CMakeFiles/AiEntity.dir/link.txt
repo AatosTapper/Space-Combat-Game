@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libAiEntity.a CMakeFiles/AiEntity.dir/AiEntity.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libAiEntity.a

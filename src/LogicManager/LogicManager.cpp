@@ -4,8 +4,8 @@
 LogicManager::LogicManager(Scene* s)
 {
     Entity* player = new Entity();
-    *player->body->pos = Base::Vec2<f32>(0.0f, 0.0f);
-    *player->size = Base::Vec2<f32>(300.0f, 300.0f);
+    *player->body->pos = Base::Vec2<f64>(0.0f, 0.0f);
+    *player->body->size = Base::Vec2<f64>(300.0f, 300.0f);
     s->add_entity(player);
 }
 
@@ -14,9 +14,9 @@ LogicManager::~LogicManager()
     
 }
 
-void LogicManager::frame_update(Scene* s, PhysicsSolver* p)
+void LogicManager::frame_update(Scene* s, PhysicsSolver* p, const f64 &dt)
 {
-    p->update_physics(s->get_entities());
+    p->update_physics(s->get_entities(), dt);
     m_update_entities(s);
 }
 

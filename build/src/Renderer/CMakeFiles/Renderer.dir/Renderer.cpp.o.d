@@ -803,6 +803,7 @@ src/Renderer/CMakeFiles/Renderer.dir/Renderer.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Entity/../Base/Base.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Entity/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Entity/../Physics/PhysicsObj.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Entity/../Physics/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Scene/../Entity/../Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/../Entity/Entity.h

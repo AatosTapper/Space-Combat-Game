@@ -17,7 +17,8 @@ typedef double f64;
 namespace Base
 {
 
-template<class T> class Vec2
+template<class T> 
+class Vec2
 {
 public:
     Vec2(T _x = 0, T _y = 0) : x(_x), y(_y) {}
@@ -82,9 +83,26 @@ void arena_free(Arena* arena);
 // user has to check for nullptr
 void* arena_push(Arena* arena, void* ptr, u32 size);
 
-void safe_free(void* ptr);
-void safe_delete(void* ptr);
+template<typename T> 
+void safe_free(T* ptr)
+{
+    if (ptr != nullptr)
+    {
+        free(ptr);
+        ptr = nullptr;
+    }   
+}
+
+template<typename T> 
+void safe_delete(T* ptr)
+{
+if (ptr != nullptr)
+    {
+        delete(ptr);
+        ptr = nullptr;
+    }  
+}
 
 } // namespace Base
 
-#endif // BASE_H
+#endif

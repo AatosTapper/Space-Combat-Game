@@ -66,8 +66,8 @@ void Renderer::m_draw_entity(Entity* e)
         return;
     m_draw_quad(e->body->pos->x,
                 e->body->pos->y,
-                e->size->x,
-                e->size->y,
+                e->body->size->x,
+                e->body->size->y,
                 *e->color);
 }
 
