@@ -66,4 +66,13 @@ void safe_free(void* ptr)
     }   
 }
 
+void safe_delete(void* ptr)
+{
+    if (ptr != nullptr)
+    {
+        delete(ptr);
+        ptr = nullptr;
+    }   
+}
+
 } // namespace Base

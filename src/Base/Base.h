@@ -83,6 +83,7 @@ void arena_free(Arena* arena);
 void* arena_push(Arena* arena, void* ptr, u32 size);
 
 void safe_free(void* ptr);
+void safe_delete(void* ptr);
 
 } // namespace Base
 

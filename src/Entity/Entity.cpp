@@ -21,5 +21,5 @@ void Entity::frame_update(std::vector<Entity*>* other_entities)
         // do sum stuff with da data
     }
 
-    Base::safe_free(other_entities);
+    Base::safe_delete(other_entities);
 }

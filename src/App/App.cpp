@@ -18,10 +18,10 @@ void run()
 
 void clean()
 {
-    Base::safe_free(r);
-    Base::safe_free(s);
-    Base::safe_free(lm);
-    Base::safe_free(p);
+    Base::safe_delete(r);
+    Base::safe_delete(s);
+    Base::safe_delete(lm);
+    Base::safe_delete(p);
 }
 
 void run_app()
