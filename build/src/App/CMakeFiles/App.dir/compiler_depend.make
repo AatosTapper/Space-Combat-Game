@@ -797,13 +797,13 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/Gameloop.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Renderer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/availability.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Renderer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h \
@@ -819,6 +819,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PlayerEntity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/AiEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h \
@@ -830,6 +832,10 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
 
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/AiEntity.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PlayerEntity.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h:
 

@@ -817,6 +817,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Entity/PlayerEntity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Entity/AiEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Physics/PhysicsSolver.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/RK4.h \

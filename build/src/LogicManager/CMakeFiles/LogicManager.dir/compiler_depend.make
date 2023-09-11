@@ -804,12 +804,18 @@ src/LogicManager/CMakeFiles/LogicManager.dir/LogicManager.cpp.o: /Users/aatos/VS
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PlayerEntity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/AiEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h
 
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/AiEntity.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PlayerEntity.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h:
 

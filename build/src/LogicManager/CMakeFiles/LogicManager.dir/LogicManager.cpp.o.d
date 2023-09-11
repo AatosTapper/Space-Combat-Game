@@ -802,6 +802,8 @@ src/LogicManager/CMakeFiles/LogicManager.dir/LogicManager.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Scene/../Entity/../Renderer/Color.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Scene/../Entity/../Renderer/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Entity/PlayerEntity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Entity/AiEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Physics/PhysicsSolver.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Scene/../Entity/../Physics/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/../Scene/../Entity/../Physics/RK4.h
