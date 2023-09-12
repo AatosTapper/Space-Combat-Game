@@ -26,10 +26,6 @@ protected:
     bool m_has_target;
     Entity* m_target;
 
-    // Idea:
-    //     entity has thrusters that face different directions
-    //     and the movement happens by turning on these thrusters
-
     // this is called at the START of the frame
     virtual void m_virtual_frame_update() {};
     virtual void m_move() {};

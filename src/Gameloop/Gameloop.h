@@ -8,7 +8,9 @@
 #include "../Scene/Scene.h"
 #include "../LogicManager/LogicManager.h"
 #include "../Physics/PhysicsEngine.h"
+#include "../Entity/Entity.h"
+#include "../Entity/PlayerEntity.h"
 
-void gameloop(Renderer* r, Scene* s, LogicManager* lm, PhysicsEngine* p);
+void gameloop(Renderer* r, Scene* s, LogicManager* lm, PhysicsEngine* p, Entity* player);
 
 #endif

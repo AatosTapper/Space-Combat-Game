@@ -826,6 +826,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/../../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/../../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Physics/PhysicsEngine.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Entity/PlayerEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Renderer/Renderer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../LogicManager/LogicManager.h \

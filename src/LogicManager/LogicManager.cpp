@@ -3,12 +3,7 @@
 
 LogicManager::LogicManager(Scene* s)
 {
-    Entity* player = new PlayerEntity();
-    player->body->mass = 10.0f;
-    *player->body->pos = Base::Vec2<f64>(-200.0f, -200.0f);
-    *player->body->size = Base::Vec2<f64>(30.0f, 30.0f);
-    s->add_entity(player);
-    player->body->add_force(Base::Vec2<f64>(50.0f, 100.0f));
+    
 }
 
 LogicManager::~LogicManager()
