@@ -26,7 +26,7 @@
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/LogicManager/CMakeFiles/LogicManager.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/LogicManager/CMakeFiles/edit_cache.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/LogicManager/CMakeFiles/rebuild_cache.dir
-/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/PhysicsSolver.dir
+/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/PhysicsEngine.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/PhysicsObj.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/RK4.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/edit_cache.dir

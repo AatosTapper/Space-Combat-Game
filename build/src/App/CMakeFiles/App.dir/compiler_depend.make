@@ -821,17 +821,22 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PlayerEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/AiEntity.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsEngine.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/Constraint.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsEngine.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Renderer/Renderer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/LogicManager/LogicManager.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsEngine.h
 
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsEngine.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/AiEntity.h:
 
@@ -1881,8 +1886,6 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
 
-/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsSolver.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_final.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdio:
@@ -1904,6 +1907,8 @@ src/App/CMakeFiles/App.dir/App.cpp.o: /Users/aatos/VSCode\ C++/project-managemen
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__concepts/convertible_to.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/Constraint.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__type_traits/strip_signature.h:
 

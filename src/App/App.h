@@ -9,7 +9,7 @@
 #include "../Renderer/Renderer.h"
 #include "../Scene/Scene.h"
 #include "../LogicManager/LogicManager.h"
-#include "../Physics/PhysicsSolver.h"
+#include "../Physics/PhysicsEngine.h"
 
 void run_app();
 

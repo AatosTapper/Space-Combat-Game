@@ -816,7 +816,10 @@ src/Gameloop/CMakeFiles/Gameloop.dir/Gameloop.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../LogicManager/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../LogicManager/../Entity/PlayerEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../LogicManager/../Entity/AiEntity.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../LogicManager/../Physics/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../LogicManager/../Physics/PhysicsEngine.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Renderer/../Scene/../Entity/../Physics/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Renderer/../Scene/../Entity/../Physics/RK4.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Physics/PhysicsSolver.h
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/Constraint.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/../../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/../../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Gameloop/../Physics/PhysicsEngine.h

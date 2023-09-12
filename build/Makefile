@@ -247,17 +247,17 @@ LogicManager/fast:
 .PHONY : LogicManager/fast
 
 #=============================================================================
-# Target rules for targets named PhysicsSolver
+# Target rules for targets named PhysicsEngine
 
 # Build rule for target.
-PhysicsSolver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PhysicsSolver
-.PHONY : PhysicsSolver
+PhysicsEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PhysicsEngine
+.PHONY : PhysicsEngine
 
 # fast build rule for target.
-PhysicsSolver/fast:
-	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/build
-.PHONY : PhysicsSolver/fast
+PhysicsEngine/fast:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/build
+.PHONY : PhysicsEngine/fast
 
 #=============================================================================
 # Target rules for targets named PhysicsObj
@@ -299,8 +299,8 @@ help:
 	@echo "... Entity"
 	@echo "... Gameloop"
 	@echo "... LogicManager"
+	@echo "... PhysicsEngine"
 	@echo "... PhysicsObj"
-	@echo "... PhysicsSolver"
 	@echo "... PlayerEntity"
 	@echo "... RK4"
 	@echo "... Renderer"

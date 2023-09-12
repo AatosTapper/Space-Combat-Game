@@ -78,7 +78,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Entity/CMakeFiles/PlayerEntity.dir/DependInfo.cmake"
   "src/Scene/CMakeFiles/Scene.dir/DependInfo.cmake"
   "src/LogicManager/CMakeFiles/LogicManager.dir/DependInfo.cmake"
-  "src/Physics/CMakeFiles/PhysicsSolver.dir/DependInfo.cmake"
+  "src/Physics/CMakeFiles/PhysicsEngine.dir/DependInfo.cmake"
   "src/Physics/CMakeFiles/PhysicsObj.dir/DependInfo.cmake"
   "src/Physics/CMakeFiles/RK4.dir/DependInfo.cmake"
   )

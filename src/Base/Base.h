@@ -17,6 +17,8 @@ typedef double f64;
 namespace Base
 {
 
+// VECTOR
+
 template<class T> 
 class Vec2
 {
@@ -64,10 +66,27 @@ public:
 };
 
 template<typename T>
-T dot_product(Vec2<T> a, Vec2<T> b)
+T vector_dot_product(const Vec2<T>& a, const Vec2<T>& b)
 {
     return a.x * b.x + a.y * b.y;
 }
+
+template<typename T>
+T vector_distance(const Vec2<T>& a, const Vec2<T>& b)
+{
+    T d_x = a.x - b.x;
+    T d_y = a.y - b.y;
+    return sqrt(d_x * d_x + d_y * d_y);
+}
+
+template<typename T>
+T vector_len(const Vec2<T>& a)
+{
+    return sqrt(a.x * a.x + a.y * a.y);
+}
+
+
+// ARENA
 
 typedef struct Arena
 {
@@ -82,6 +101,9 @@ void arena_alloc(Arena* arena, u32 size);
 void arena_free(Arena* arena);
 // user has to check for nullptr
 void* arena_push(Arena* arena, void* ptr, u32 size);
+
+
+// MEMORY UTILITY
 
 template<typename T> 
 void safe_free(T* ptr)

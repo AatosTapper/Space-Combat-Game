@@ -1,6 +1,7 @@
 #ifndef ENTITY_H
 #define ENTITY_H
 
+#include <glfw3.h>
 #include <memory>
 #include <vector>
 

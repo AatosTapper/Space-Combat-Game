@@ -794,6 +794,11 @@ src/Physics/CMakeFiles/RK4.dir/RK4.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/include/GLFW/glfw3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/availability.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/../Entity/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/../Entity/../Physics/PhysicsObj.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/../Entity/../Renderer/Color.h \

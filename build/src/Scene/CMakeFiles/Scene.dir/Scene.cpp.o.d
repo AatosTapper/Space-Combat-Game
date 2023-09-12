@@ -794,6 +794,11 @@ src/Scene/CMakeFiles/Scene.dir/Scene.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/cstdarg \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/include/GLFW/glfw3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include/os/availability.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Physics/PhysicsObj.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Scene/../Entity/../Physics/../Base/Base.h \

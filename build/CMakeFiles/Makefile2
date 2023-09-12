@@ -195,7 +195,7 @@ src/LogicManager/clean: src/LogicManager/CMakeFiles/LogicManager.dir/clean
 # Directory level rules for directory src/Physics
 
 # Recursive "all" directory target.
-src/Physics/all: src/Physics/CMakeFiles/PhysicsSolver.dir/all
+src/Physics/all: src/Physics/CMakeFiles/PhysicsEngine.dir/all
 src/Physics/all: src/Physics/CMakeFiles/PhysicsObj.dir/all
 src/Physics/all: src/Physics/CMakeFiles/RK4.dir/all
 .PHONY : src/Physics/all
@@ -205,7 +205,7 @@ src/Physics/preinstall:
 .PHONY : src/Physics/preinstall
 
 # Recursive "clean" directory target.
-src/Physics/clean: src/Physics/CMakeFiles/PhysicsSolver.dir/clean
+src/Physics/clean: src/Physics/CMakeFiles/PhysicsEngine.dir/clean
 src/Physics/clean: src/Physics/CMakeFiles/PhysicsObj.dir/clean
 src/Physics/clean: src/Physics/CMakeFiles/RK4.dir/clean
 .PHONY : src/Physics/clean
@@ -253,7 +253,7 @@ src/CMakeFiles/main.dir/all: src/Entity/CMakeFiles/AiEntity.dir/all
 src/CMakeFiles/main.dir/all: src/Entity/CMakeFiles/PlayerEntity.dir/all
 src/CMakeFiles/main.dir/all: src/Scene/CMakeFiles/Scene.dir/all
 src/CMakeFiles/main.dir/all: src/LogicManager/CMakeFiles/LogicManager.dir/all
-src/CMakeFiles/main.dir/all: src/Physics/CMakeFiles/PhysicsSolver.dir/all
+src/CMakeFiles/main.dir/all: src/Physics/CMakeFiles/PhysicsEngine.dir/all
 src/CMakeFiles/main.dir/all: src/Physics/CMakeFiles/PhysicsObj.dir/all
 src/CMakeFiles/main.dir/all: src/Physics/CMakeFiles/RK4.dir/all
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/depend
@@ -512,30 +512,30 @@ src/LogicManager/CMakeFiles/LogicManager.dir/clean:
 .PHONY : src/LogicManager/CMakeFiles/LogicManager.dir/clean
 
 #=============================================================================
-# Target rules for target src/Physics/CMakeFiles/PhysicsSolver.dir
+# Target rules for target src/Physics/CMakeFiles/PhysicsEngine.dir
 
 # All Build rule for target.
-src/Physics/CMakeFiles/PhysicsSolver.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=15,16 "Built target PhysicsSolver"
-.PHONY : src/Physics/CMakeFiles/PhysicsSolver.dir/all
+src/Physics/CMakeFiles/PhysicsEngine.dir/all:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=13,14 "Built target PhysicsEngine"
+.PHONY : src/Physics/CMakeFiles/PhysicsEngine.dir/all
 
 # Build rule for subdir invocation for target.
-src/Physics/CMakeFiles/PhysicsSolver.dir/rule: cmake_check_build_system
+src/Physics/CMakeFiles/PhysicsEngine.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Physics/CMakeFiles/PhysicsSolver.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Physics/CMakeFiles/PhysicsEngine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" 0
-.PHONY : src/Physics/CMakeFiles/PhysicsSolver.dir/rule
+.PHONY : src/Physics/CMakeFiles/PhysicsEngine.dir/rule
 
 # Convenience name for target.
-PhysicsSolver: src/Physics/CMakeFiles/PhysicsSolver.dir/rule
-.PHONY : PhysicsSolver
+PhysicsEngine: src/Physics/CMakeFiles/PhysicsEngine.dir/rule
+.PHONY : PhysicsEngine
 
 # clean rule for target.
-src/Physics/CMakeFiles/PhysicsSolver.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/clean
-.PHONY : src/Physics/CMakeFiles/PhysicsSolver.dir/clean
+src/Physics/CMakeFiles/PhysicsEngine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/clean
+.PHONY : src/Physics/CMakeFiles/PhysicsEngine.dir/clean
 
 #=============================================================================
 # Target rules for target src/Physics/CMakeFiles/PhysicsObj.dir
@@ -544,7 +544,7 @@ src/Physics/CMakeFiles/PhysicsSolver.dir/clean:
 src/Physics/CMakeFiles/PhysicsObj.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsObj.dir/build.make src/Physics/CMakeFiles/PhysicsObj.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsObj.dir/build.make src/Physics/CMakeFiles/PhysicsObj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=13,14 "Built target PhysicsObj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=15,16 "Built target PhysicsObj"
 .PHONY : src/Physics/CMakeFiles/PhysicsObj.dir/all
 
 # Build rule for subdir invocation for target.

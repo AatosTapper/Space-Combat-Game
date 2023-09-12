@@ -101,7 +101,7 @@ main: src/Entity/libAiEntity.a
 main: src/Entity/libPlayerEntity.a
 main: src/Scene/libScene.a
 main: src/LogicManager/libLogicManager.a
-main: src/Physics/libPhysicsSolver.a
+main: src/Physics/libPhysicsEngine.a
 main: src/Physics/libPhysicsObj.a
 main: src/Physics/libRK4.a
 main: /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/lib-arm64/libglfw3.a

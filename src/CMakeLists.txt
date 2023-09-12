@@ -24,7 +24,7 @@ add_subdirectory(LogicManager)
 target_link_libraries(main PRIVATE LogicManager)
 
 add_subdirectory(Physics)
-target_link_libraries(main PRIVATE PhysicsSolver)
+target_link_libraries(main PRIVATE PhysicsEngine)
 target_link_libraries(main PRIVATE PhysicsObj)
 target_link_libraries(main PRIVATE RK4)
 

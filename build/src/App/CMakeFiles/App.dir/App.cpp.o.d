@@ -819,11 +819,14 @@ src/App/CMakeFiles/App.dir/App.cpp.o: \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Entity/PlayerEntity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Entity/AiEntity.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Physics/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../LogicManager/../Physics/PhysicsEngine.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/../Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/RK4.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Physics/PhysicsSolver.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/Constraint.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/../../Base/Base.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Renderer/../Scene/../Entity/../Physics/Constraints/../../Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Gameloop/../Physics/PhysicsEngine.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Renderer/Renderer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Scene/Scene.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../LogicManager/LogicManager.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Physics/PhysicsSolver.h
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/App/../Physics/PhysicsEngine.h

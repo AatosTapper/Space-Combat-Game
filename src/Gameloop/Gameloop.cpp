@@ -1,7 +1,7 @@
 
 #include "Gameloop.h"
 
-void gameloop(Renderer* r, Scene* s, LogicManager* lm, PhysicsSolver* p)
+void gameloop(Renderer* r, Scene* s, LogicManager* lm, PhysicsEngine* p)
 {
     r->setup();
 

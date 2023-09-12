@@ -117,18 +117,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/Physics/CMakeFiles/PhysicsSolver.dir/rule:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Physics/CMakeFiles/PhysicsSolver.dir/rule
-.PHONY : src/Physics/CMakeFiles/PhysicsSolver.dir/rule
+src/Physics/CMakeFiles/PhysicsEngine.dir/rule:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Physics/CMakeFiles/PhysicsEngine.dir/rule
+.PHONY : src/Physics/CMakeFiles/PhysicsEngine.dir/rule
 
 # Convenience name for target.
-PhysicsSolver: src/Physics/CMakeFiles/PhysicsSolver.dir/rule
-.PHONY : PhysicsSolver
+PhysicsEngine: src/Physics/CMakeFiles/PhysicsEngine.dir/rule
+.PHONY : PhysicsEngine
 
 # fast build rule for target.
-PhysicsSolver/fast:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/build
-.PHONY : PhysicsSolver/fast
+PhysicsEngine/fast:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/build
+.PHONY : PhysicsEngine/fast
 
 # Convenience name for target.
 src/Physics/CMakeFiles/PhysicsObj.dir/rule:
@@ -158,6 +158,30 @@ RK4/fast:
 	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/RK4.dir/build.make src/Physics/CMakeFiles/RK4.dir/build
 .PHONY : RK4/fast
 
+PhysicsEngine.o: PhysicsEngine.cpp.o
+.PHONY : PhysicsEngine.o
+
+# target to build an object file
+PhysicsEngine.cpp.o:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/PhysicsEngine.cpp.o
+.PHONY : PhysicsEngine.cpp.o
+
+PhysicsEngine.i: PhysicsEngine.cpp.i
+.PHONY : PhysicsEngine.i
+
+# target to preprocess a source file
+PhysicsEngine.cpp.i:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/PhysicsEngine.cpp.i
+.PHONY : PhysicsEngine.cpp.i
+
+PhysicsEngine.s: PhysicsEngine.cpp.s
+.PHONY : PhysicsEngine.s
+
+# target to generate assembly for a file
+PhysicsEngine.cpp.s:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsEngine.dir/build.make src/Physics/CMakeFiles/PhysicsEngine.dir/PhysicsEngine.cpp.s
+.PHONY : PhysicsEngine.cpp.s
+
 PhysicsObj.o: PhysicsObj.cpp.o
 .PHONY : PhysicsObj.o
 
@@ -181,30 +205,6 @@ PhysicsObj.s: PhysicsObj.cpp.s
 PhysicsObj.cpp.s:
 	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsObj.dir/build.make src/Physics/CMakeFiles/PhysicsObj.dir/PhysicsObj.cpp.s
 .PHONY : PhysicsObj.cpp.s
-
-PhysicsSolver.o: PhysicsSolver.cpp.o
-.PHONY : PhysicsSolver.o
-
-# target to build an object file
-PhysicsSolver.cpp.o:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/PhysicsSolver.cpp.o
-.PHONY : PhysicsSolver.cpp.o
-
-PhysicsSolver.i: PhysicsSolver.cpp.i
-.PHONY : PhysicsSolver.i
-
-# target to preprocess a source file
-PhysicsSolver.cpp.i:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/PhysicsSolver.cpp.i
-.PHONY : PhysicsSolver.cpp.i
-
-PhysicsSolver.s: PhysicsSolver.cpp.s
-.PHONY : PhysicsSolver.s
-
-# target to generate assembly for a file
-PhysicsSolver.cpp.s:
-	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/PhysicsSolver.dir/build.make src/Physics/CMakeFiles/PhysicsSolver.dir/PhysicsSolver.cpp.s
-.PHONY : PhysicsSolver.cpp.s
 
 RK4.o: RK4.cpp.o
 .PHONY : RK4.o
@@ -238,15 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... PhysicsEngine"
 	@echo "... PhysicsObj"
-	@echo "... PhysicsSolver"
 	@echo "... RK4"
+	@echo "... PhysicsEngine.o"
+	@echo "... PhysicsEngine.i"
+	@echo "... PhysicsEngine.s"
 	@echo "... PhysicsObj.o"
 	@echo "... PhysicsObj.i"
 	@echo "... PhysicsObj.s"
-	@echo "... PhysicsSolver.o"
-	@echo "... PhysicsSolver.i"
-	@echo "... PhysicsSolver.s"
 	@echo "... RK4.o"
 	@echo "... RK4.i"
 	@echo "... RK4.s"

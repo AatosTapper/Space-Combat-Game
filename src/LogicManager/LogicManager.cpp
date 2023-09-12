@@ -16,7 +16,7 @@ LogicManager::~LogicManager()
     
 }
 
-void LogicManager::frame_update(Scene* s, PhysicsSolver* p)
+void LogicManager::frame_update(Scene* s, PhysicsEngine* p)
 {
     m_update_entities(s);
 }

@@ -13,12 +13,12 @@ PlayerEntity::~PlayerEntity()
 
 void PlayerEntity::m_virtual_frame_update()
 {
-    
+
 }
 
 void PlayerEntity::m_move()
 {
-
+    
 }
 
 void PlayerEntity::m_move(std::vector<Entity*>* other_entities)
