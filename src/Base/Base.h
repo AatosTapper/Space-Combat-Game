@@ -3,6 +3,9 @@
 
 #include <iostream>
 
+#define PI 3.14159265358979323846264338328
+#define PI2 PI * 2.0f
+
 typedef uint8_t u8;
 typedef uint16_t u16;
 typedef uint32_t u32;
@@ -124,6 +127,13 @@ if (ptr != nullptr)
         ptr = nullptr;
     }  
 }
+
+
+// Trig
+
+void clamp_radians(f32* in);
+
+void flip_pi_radians(f32* in);
 
 } // namespace Base
 

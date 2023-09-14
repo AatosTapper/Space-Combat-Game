@@ -4,8 +4,8 @@
 Entity::Entity()
 {
     body = std::make_unique<PhysicsObj>();
-    angle = std::make_unique<Base::Vec2<f32>>(0.0f, -1.0f);
-    color = std::make_unique<Color>(0.5f, 0.5f, 0.5f);
+    color = std::make_unique<Color>(0.4f, 0.4f, 0.4f);
+    angle = PI / 2.0f;
     m_target = nullptr;
     m_needs_to_see_other_entities = false;
     m_has_target = false;

@@ -1,7 +1,7 @@
 
 #include "PhysicsEngine.h"
 
-#define SIM_SPEED 10 // nx faster
+#define SIM_SPEED 20 // nx faster
 
 PhysicsEngine::PhysicsEngine()
 {
@@ -22,23 +22,22 @@ void PhysicsEngine::update_physics(std::vector<Entity*>* entities, const f64 &dt
 
 void PhysicsEngine::m_solve_constraints(std::vector<Entity*>* entities)
 {
-    for (u32 i = 0; i < m_constraints->size(); i++)
+    for (u32 j = 0; j < entities->size(); j++)
     {
-        for (u32 j = 0; j < entities->size(); j++)
+        std::vector<Entity*> all_but_index;
+        for (u32 k = 0; k < entities->size(); k++)
         {
-            std::vector<Entity*> all_but_index;
-            for (u32 k = 0; k < entities->size(); k++)
-            {
-                if (k == j)
-                    continue;
-                if (!m_dist_bound_entity(entities->at(j), entities->at(k)))
-                    continue;
-                all_but_index.push_back(entities->at(k));
-            }
-
-            m_constraints->at(i)->solve(entities->at(j), &all_but_index);
+            if (k == j)
+                continue;
+            if (!m_dist_bound_entity(entities->at(j), entities->at(k)))
+                continue;
+            all_but_index.push_back(entities->at(k));
         }
         
+        for (u32 i = 0; i < m_constraints->size(); i++)
+        {
+            m_constraints->at(i)->solve(entities->at(j), &all_but_index);
+        }
     }
 }
 

@@ -11,9 +11,9 @@ void prepare()
 {
     r->set_screen(1280u, 720u);
 
-    player->body->mass = 10.0f;
+    player->body->radius = 30.0f;
+    player->body->mass = 20.0f;
     *player->body->pos = Base::Vec2<f64>(-200.0f, -200.0f);
-    *player->body->size = Base::Vec2<f64>(30.0f, 30.0f);
 }
 
 void run()

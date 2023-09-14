@@ -6,7 +6,8 @@ void gameloop(Renderer* r, Scene* s, LogicManager* lm, PhysicsEngine* p, Entity*
     r->setup();
     auto window = r->get_window();
     s->add_entity(player);
-    ((PlayerEntity*)player)->get_window(window);
+    PlayerEntity* temp_ptr = dynamic_cast<PlayerEntity*>(player);
+    temp_ptr->get_window(window);
 
     f64 last_time = 0.0f;
     while (!glfwWindowShouldClose(window))

@@ -31,6 +31,8 @@ private:
     void m_draw_entity(Entity* e);
     void m_draw_quad(f32 mid_x, f32 mid_y, f32 width, 
         f32 height, const Color& c);
+    void m_draw_tri(Base::Vec2<f32> a, Base::Vec2<f32> b, Base::Vec2<f32> c, Color col);
+    void m_draw_circle(const Base::Vec2<f32>& mid_pos, f32 radius, Color col, f32 angle = -1);
 };
 
 #endif

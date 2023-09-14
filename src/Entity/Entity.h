@@ -15,8 +15,8 @@ public:
     Entity();
     virtual ~Entity();
 
+    f32 angle;
     std::unique_ptr<PhysicsObj> body;
-    std::unique_ptr<Base::Vec2<f32>> angle;
     std::unique_ptr<Color> color;
 
     void frame_update(std::vector<Entity*>* other_entities);

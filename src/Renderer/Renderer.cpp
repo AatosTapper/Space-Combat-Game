@@ -64,11 +64,14 @@ void Renderer::m_draw_entity(Entity* e)
 {
     if (e == nullptr)
         return;
-    m_draw_quad(e->body->pos->x,
-                e->body->pos->y,
-                e->body->size->x,
-                e->body->size->y,
-                *e->color);
+    //m_draw_quad(e->body->pos->x,
+    //            e->body->pos->y,
+    //            e->body->radius->x,
+    //            e->body->radius->y,
+    //            *e->color);
+    m_draw_circle(Base::Vec2<f32>(*&e->body->pos->x, *&e->body->pos->y), 
+                e->body->radius,
+                *e->color, e->angle);
 }
 
 void Renderer::m_draw_quad(f32 midX, f32 midY, f32 width, 
@@ -81,4 +84,41 @@ void Renderer::m_draw_quad(f32 midX, f32 midY, f32 width,
     glVertex2f(midX + width / 2.0f + offset->x, midY + height / 2.0f + offset->y);
     glVertex2f(midX + width / 2.0f + offset->x, midY - height / 2.0f + offset->y);
     glEnd();
+}
+
+void Renderer::m_draw_tri(Base::Vec2<f32> a, Base::Vec2<f32> b, Base::Vec2<f32> c, Color col)
+{
+    glColor3f(col.r, col.g, col.b);
+    glBegin(GL_TRIANGLES);
+    glVertex2f(a.x + offset->x, a.y + offset->y);
+    glVertex2f(b.x + offset->x, b.y + offset->y);
+    glVertex2f(c.x + offset->x, c.y + offset->y);
+    glEnd();
+}
+
+void Renderer::m_draw_circle(const Base::Vec2<f32>& mid_pos, f32 radius, Color col, f32 angle)
+{
+    const u32 res = 28u;
+    const f32 step = PI2 / (f32)res;
+    for (u32 i = 0; i < res; i++)
+    {
+        Color c = col;
+        f32 angle_multiplier = 1.0f;
+
+        if (angle != -1)
+        {
+            if ((step * i) <= angle && (step * (i + 1) > angle))
+            {
+                c = Color(0.9f, 0.3f, 0.04f);
+                angle_multiplier = 1.5f;
+            }
+        }
+
+        const f32 x_off_1 = cos(step * i) * radius * angle_multiplier;
+        const f32 y_off_1 = sin(step * i) * radius * angle_multiplier;
+        const f32 x_off_2 = cos(step * (i + 1)) * radius * angle_multiplier;
+        const f32 y_off_2 = sin(step * (i + 1)) * radius * angle_multiplier;
+        m_draw_tri(mid_pos, Base::Vec2<f32>(x_off_1 + mid_pos.x, y_off_1 + mid_pos.y), 
+                            Base::Vec2<f32>(x_off_2 + mid_pos.x, y_off_2 + mid_pos.y), c);
+    }
 }

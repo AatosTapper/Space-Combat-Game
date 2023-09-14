@@ -57,4 +57,22 @@ void* arena_push(Arena* arena, void* ptr, u32 size)
     return current_char_pointer;
 }
 
+void clamp_radians(f32* in)
+{
+    while (*in >= PI2)
+    {
+        *in -= PI2;
+    }
+    while (*in < 0)
+    {
+        *in += PI2;
+    }
+}
+
+void flip_pi_radians(f32* in)
+{
+    *in += PI;
+    clamp_radians(in);
+}
+
 } // namespace Base

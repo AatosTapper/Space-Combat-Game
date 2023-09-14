@@ -12,8 +12,8 @@ public:
     ~PhysicsObj();
 
     f64 mass; // kg
+    f64 radius; // px
     std::unique_ptr<Base::Vec2<f64>> pos; // px
-    std::unique_ptr<Base::Vec2<f64>> size; // width, height
     std::unique_ptr<Base::Vec2<f64>> vel; // m/s
     std::unique_ptr<Base::Vec2<f64>> sigma_force; // N
 
