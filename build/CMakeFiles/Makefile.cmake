@@ -81,4 +81,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "src/Physics/CMakeFiles/PhysicsEngine.dir/DependInfo.cmake"
   "src/Physics/CMakeFiles/PhysicsObj.dir/DependInfo.cmake"
   "src/Physics/CMakeFiles/RK4.dir/DependInfo.cmake"
+  "src/Physics/CMakeFiles/ConstCollision.dir/DependInfo.cmake"
+  "src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/DependInfo.cmake"
   )

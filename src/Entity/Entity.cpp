@@ -5,6 +5,7 @@ Entity::Entity()
 {
     body = std::make_unique<PhysicsObj>();
     color = std::make_unique<Color>(0.4f, 0.4f, 0.4f);
+    movable = true;
     angle = PI / 2.0f;
     m_target = nullptr;
     m_needs_to_see_other_entities = false;

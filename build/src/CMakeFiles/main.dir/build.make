@@ -104,6 +104,8 @@ main: src/LogicManager/libLogicManager.a
 main: src/Physics/libPhysicsEngine.a
 main: src/Physics/libPhysicsObj.a
 main: src/Physics/libRK4.a
+main: src/Physics/libConstCollision.a
+main: src/Physics/libConstKineticEnergyTransfer.a
 main: /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/dep/lib-arm64/libglfw3.a
 main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../main"

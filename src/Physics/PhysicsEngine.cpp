@@ -6,7 +6,9 @@
 PhysicsEngine::PhysicsEngine()
 {
     m_solver = std::make_unique<RK4>();
-    m_constraints = std::make_unique<std::vector<Constraint*>>();
+    m_constraints = std::make_unique<std::vector<std::unique_ptr<Constraint>>>();
+    //m_constraints->push_back(std::make_unique<ConstKineticEnergyTransfer>());
+    m_constraints->push_back(std::make_unique<ConstCollision>());
 }
 
 PhysicsEngine::~PhysicsEngine()
@@ -16,14 +18,21 @@ PhysicsEngine::~PhysicsEngine()
 
 void PhysicsEngine::update_physics(std::vector<Entity*>* entities, const f64 &dt)
 {
-    m_solver->solve_frame(entities, dt, SIM_SPEED);
-    m_solve_constraints(entities);
+    m_solver->scale_forces(entities, CHECKS_PER_FRAME);
+    for (u32 i = 0; i < CHECKS_PER_FRAME; i++)
+    {
+        m_solver->solve_frame(entities, dt / CHECKS_PER_FRAME, SIM_SPEED);
+        m_solve_constraints(entities);
+    }
+    m_solver->reset_forces(entities);
 }
 
 void PhysicsEngine::m_solve_constraints(std::vector<Entity*>* entities)
 {
     for (u32 j = 0; j < entities->size(); j++)
     {
+        if (!entities->at(j)->movable)
+            continue;
         std::vector<Entity*> all_but_index;
         for (u32 k = 0; k < entities->size(); k++)
         {

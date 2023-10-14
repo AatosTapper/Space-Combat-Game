@@ -29,5 +29,7 @@
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/PhysicsEngine.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/PhysicsObj.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/RK4.dir
+/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/ConstCollision.dir
+/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/edit_cache.dir
 /Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build/src/Physics/CMakeFiles/rebuild_cache.dir

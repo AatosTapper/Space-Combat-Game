@@ -824,10 +824,16 @@ src/Gameloop/CMakeFiles/Gameloop.dir/Gameloop.cpp.o: /Users/aatos/VSCode\ C++/pr
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/Constraint.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstCollision.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstKineticEnergyTransfer.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/PhysicsEngine.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/PlayerEntity.h
 
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstKineticEnergyTransfer.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstCollision.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h:
 

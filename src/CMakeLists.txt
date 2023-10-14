@@ -27,6 +27,8 @@ add_subdirectory(Physics)
 target_link_libraries(main PRIVATE PhysicsEngine)
 target_link_libraries(main PRIVATE PhysicsObj)
 target_link_libraries(main PRIVATE RK4)
+target_link_libraries(main PRIVATE ConstCollision)
+target_link_libraries(main PRIVATE ConstKineticEnergyTransfer)
 
 
 target_link_libraries(main PRIVATE ${GLFW_LIBRARY})

@@ -11,6 +11,23 @@ RK4::~RK4()
     
 }
 
+void RK4::scale_forces(std::vector<Entity*>* entities, u32 steps)
+{
+    for (auto e : *entities)
+    {
+        e->body->sigma_force->x *= steps;
+        e->body->sigma_force->y *= steps;
+    }
+}
+
+void RK4::reset_forces(std::vector<Entity*>* entities)
+{
+    for (auto e : *entities)
+    {
+        e->body->reset_force();
+    }
+}
+
 void RK4::solve_frame(std::vector<Entity*>* entities, const f64 &dt, f64 sim_speed)
 {
     for (auto e : *entities)
@@ -24,8 +41,8 @@ Base::Vec2<f64> RK4::m_calc_vel(const PhysicsObj* obj, Base::Vec2<f64> vel,  con
     const f64 x_acc = (obj->sigma_force->x / obj->mass) * dt;
     const f64 y_acc = (obj->sigma_force->y / obj->mass) * dt;
 
-    const f64 x_vel = (x_acc * dt);
-    const f64 y_vel = (y_acc * dt);
+    const f64 x_vel = x_acc * dt;
+    const f64 y_vel = y_acc * dt;
 
     return Base::Vec2<f64>(x_vel, y_vel);
 }
@@ -51,5 +68,4 @@ void RK4::m_apply_vel(PhysicsObj* obj, Base::Vec2<f64> new_vel)
 {
     *obj->vel = new_vel;
     *obj->pos += new_vel;
-    obj->reset_force();
 }

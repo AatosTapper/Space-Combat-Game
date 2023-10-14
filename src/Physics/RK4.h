@@ -16,7 +16,9 @@ public:
     RK4();
     ~RK4();
     
+    void scale_forces(std::vector<Entity*>* entities, u32 steps);
     void solve_frame(std::vector<Entity*>* entities, const f64 &dt, f64 sim_speed);
+    void reset_forces(std::vector<Entity*>* entities);
 
 private:
     Base::Vec2<f64> m_calc_vel(const PhysicsObj* obj, Base::Vec2<f64> vel, const f64 &dt);

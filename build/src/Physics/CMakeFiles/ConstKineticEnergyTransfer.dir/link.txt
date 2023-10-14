@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libConstKineticEnergyTransfer.a CMakeFiles/ConstKineticEnergyTransfer.dir/Constraints/ConstKineticEnergyTransfer.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libConstKineticEnergyTransfer.a

@@ -6,6 +6,7 @@ Scene* s = new Scene();
 LogicManager* lm = new LogicManager(s);
 PhysicsEngine* p = new PhysicsEngine();
 Entity* player = new PlayerEntity();
+Entity* enemy = new AiEntity();
 
 void prepare()
 {
@@ -14,6 +15,11 @@ void prepare()
     player->body->radius = 30.0f;
     player->body->mass = 20.0f;
     *player->body->pos = Base::Vec2<f64>(-200.0f, -200.0f);
+
+    enemy->body->radius = 60.0f;
+    enemy->body->mass = 50.0f;
+    *enemy->body->pos = Base::Vec2<f64>(0.0f, 0.0f);
+    s->add_entity(enemy);
 }
 
 void run()

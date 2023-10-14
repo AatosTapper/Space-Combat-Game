@@ -15,6 +15,7 @@ public:
     Entity();
     virtual ~Entity();
 
+    bool movable;
     f32 angle;
     std::unique_ptr<PhysicsObj> body;
     std::unique_ptr<Color> color;

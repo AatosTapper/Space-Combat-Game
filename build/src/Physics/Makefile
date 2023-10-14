@@ -158,6 +158,82 @@ RK4/fast:
 	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/RK4.dir/build.make src/Physics/CMakeFiles/RK4.dir/build
 .PHONY : RK4/fast
 
+# Convenience name for target.
+src/Physics/CMakeFiles/ConstCollision.dir/rule:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Physics/CMakeFiles/ConstCollision.dir/rule
+.PHONY : src/Physics/CMakeFiles/ConstCollision.dir/rule
+
+# Convenience name for target.
+ConstCollision: src/Physics/CMakeFiles/ConstCollision.dir/rule
+.PHONY : ConstCollision
+
+# fast build rule for target.
+ConstCollision/fast:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstCollision.dir/build.make src/Physics/CMakeFiles/ConstCollision.dir/build
+.PHONY : ConstCollision/fast
+
+# Convenience name for target.
+src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/rule:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/rule
+.PHONY : src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/rule
+
+# Convenience name for target.
+ConstKineticEnergyTransfer: src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/rule
+.PHONY : ConstKineticEnergyTransfer
+
+# fast build rule for target.
+ConstKineticEnergyTransfer/fast:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build.make src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build
+.PHONY : ConstKineticEnergyTransfer/fast
+
+Constraints/ConstCollision.o: Constraints/ConstCollision.cpp.o
+.PHONY : Constraints/ConstCollision.o
+
+# target to build an object file
+Constraints/ConstCollision.cpp.o:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstCollision.dir/build.make src/Physics/CMakeFiles/ConstCollision.dir/Constraints/ConstCollision.cpp.o
+.PHONY : Constraints/ConstCollision.cpp.o
+
+Constraints/ConstCollision.i: Constraints/ConstCollision.cpp.i
+.PHONY : Constraints/ConstCollision.i
+
+# target to preprocess a source file
+Constraints/ConstCollision.cpp.i:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstCollision.dir/build.make src/Physics/CMakeFiles/ConstCollision.dir/Constraints/ConstCollision.cpp.i
+.PHONY : Constraints/ConstCollision.cpp.i
+
+Constraints/ConstCollision.s: Constraints/ConstCollision.cpp.s
+.PHONY : Constraints/ConstCollision.s
+
+# target to generate assembly for a file
+Constraints/ConstCollision.cpp.s:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstCollision.dir/build.make src/Physics/CMakeFiles/ConstCollision.dir/Constraints/ConstCollision.cpp.s
+.PHONY : Constraints/ConstCollision.cpp.s
+
+Constraints/ConstKineticEnergyTransfer.o: Constraints/ConstKineticEnergyTransfer.cpp.o
+.PHONY : Constraints/ConstKineticEnergyTransfer.o
+
+# target to build an object file
+Constraints/ConstKineticEnergyTransfer.cpp.o:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build.make src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/Constraints/ConstKineticEnergyTransfer.cpp.o
+.PHONY : Constraints/ConstKineticEnergyTransfer.cpp.o
+
+Constraints/ConstKineticEnergyTransfer.i: Constraints/ConstKineticEnergyTransfer.cpp.i
+.PHONY : Constraints/ConstKineticEnergyTransfer.i
+
+# target to preprocess a source file
+Constraints/ConstKineticEnergyTransfer.cpp.i:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build.make src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/Constraints/ConstKineticEnergyTransfer.cpp.i
+.PHONY : Constraints/ConstKineticEnergyTransfer.cpp.i
+
+Constraints/ConstKineticEnergyTransfer.s: Constraints/ConstKineticEnergyTransfer.cpp.s
+.PHONY : Constraints/ConstKineticEnergyTransfer.s
+
+# target to generate assembly for a file
+Constraints/ConstKineticEnergyTransfer.cpp.s:
+	cd "/Users/aatos/VSCode C++/project-management-test/Space-Combat-Game/build" && $(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build.make src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/Constraints/ConstKineticEnergyTransfer.cpp.s
+.PHONY : Constraints/ConstKineticEnergyTransfer.cpp.s
+
 PhysicsEngine.o: PhysicsEngine.cpp.o
 .PHONY : PhysicsEngine.o
 
@@ -238,9 +314,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ConstCollision"
+	@echo "... ConstKineticEnergyTransfer"
 	@echo "... PhysicsEngine"
 	@echo "... PhysicsObj"
 	@echo "... RK4"
+	@echo "... Constraints/ConstCollision.o"
+	@echo "... Constraints/ConstCollision.i"
+	@echo "... Constraints/ConstCollision.s"
+	@echo "... Constraints/ConstKineticEnergyTransfer.o"
+	@echo "... Constraints/ConstKineticEnergyTransfer.i"
+	@echo "... Constraints/ConstKineticEnergyTransfer.s"
 	@echo "... PhysicsEngine.o"
 	@echo "... PhysicsEngine.i"
 	@echo "... PhysicsEngine.s"

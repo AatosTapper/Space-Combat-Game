@@ -13,6 +13,7 @@ public:
 
     f64 mass; // kg
     f64 radius; // px
+    f64 restitution; // 0.0f - 1.0f
     std::unique_ptr<Base::Vec2<f64>> pos; // px
     std::unique_ptr<Base::Vec2<f64>> vel; // m/s
     std::unique_ptr<Base::Vec2<f64>> sigma_force; // N

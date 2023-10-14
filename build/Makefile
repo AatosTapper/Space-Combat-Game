@@ -285,6 +285,32 @@ RK4/fast:
 	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/RK4.dir/build.make src/Physics/CMakeFiles/RK4.dir/build
 .PHONY : RK4/fast
 
+#=============================================================================
+# Target rules for targets named ConstCollision
+
+# Build rule for target.
+ConstCollision: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ConstCollision
+.PHONY : ConstCollision
+
+# fast build rule for target.
+ConstCollision/fast:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstCollision.dir/build.make src/Physics/CMakeFiles/ConstCollision.dir/build
+.PHONY : ConstCollision/fast
+
+#=============================================================================
+# Target rules for targets named ConstKineticEnergyTransfer
+
+# Build rule for target.
+ConstKineticEnergyTransfer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ConstKineticEnergyTransfer
+.PHONY : ConstKineticEnergyTransfer
+
+# fast build rule for target.
+ConstKineticEnergyTransfer/fast:
+	$(MAKE) $(MAKESILENT) -f src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build.make src/Physics/CMakeFiles/ConstKineticEnergyTransfer.dir/build
+.PHONY : ConstKineticEnergyTransfer/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -296,6 +322,8 @@ help:
 	@echo "... AiEntity"
 	@echo "... App"
 	@echo "... Base"
+	@echo "... ConstCollision"
+	@echo "... ConstKineticEnergyTransfer"
 	@echo "... Entity"
 	@echo "... Gameloop"
 	@echo "... LogicManager"

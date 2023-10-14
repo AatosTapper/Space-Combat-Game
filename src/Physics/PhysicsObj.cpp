@@ -5,6 +5,7 @@ PhysicsObj::PhysicsObj()
 {
     mass = 1.0f;
     radius = 30.0f;
+    restitution = 0.1f;
     pos = std::make_unique<Base::Vec2<f64>>(0.0f, 0.0f);
     vel = std::make_unique<Base::Vec2<f64>>(0.0f, 0.0f);
     sigma_force = std::make_unique<Base::Vec2<f64>>(0.0f, 0.0f);

@@ -22,7 +22,7 @@ void PlayerEntity::m_move()
     if (m_window == nullptr)
         return;
 
-    const f64 speed = 40.0f;
+    const f64 speed = 50.0f;
     const f32 turn_speed = PI / 80.0f;
 
     if (glfwGetKey(m_window, GLFW_KEY_LEFT) == GLFW_PRESS)

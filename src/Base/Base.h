@@ -66,6 +66,13 @@ public:
     {
         return Vec2<T>(this->x = obj.x, this->y = obj.y);
     }
+
+    void normalize()
+    {
+        T len = sqrt(x * x + y * y);
+        x /= len;
+        y /= len;
+    }
 };
 
 template<typename T>
@@ -86,6 +93,20 @@ template<typename T>
 T vector_len(const Vec2<T>& a)
 {
     return sqrt(a.x * a.x + a.y * a.y);
+}
+
+template<typename T>
+Vec2<T> vector_delta(const Vec2<T>& a, const Vec2<T>& b)
+{
+    return Vec2<T>(b.x - a.x, b.y - a.y);
+}
+
+template<typename T>
+Vec2<T> vector_angle_normal(const Vec2<T>& a, const Vec2<T>& b)
+{
+    Vec2<T> output = vector_delta(a, b);
+    output.normalize();
+    return output;
 }
 
 

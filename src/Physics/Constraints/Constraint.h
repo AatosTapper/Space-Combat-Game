@@ -9,7 +9,6 @@
 class Constraint
 {
 public:
-    Constraint() {}
     virtual ~Constraint() {}
 
     virtual void solve(Entity* cur_entity, std::vector<Entity*>* oth_entities) {}

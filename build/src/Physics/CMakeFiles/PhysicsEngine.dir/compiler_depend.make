@@ -809,8 +809,14 @@ src/Physics/CMakeFiles/PhysicsEngine.dir/PhysicsEngine.cpp.o: /Users/aatos/VSCod
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/Constraint.h \
   /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Base/Base.h \
-  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Entity/Entity.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstCollision.h \
+  /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstKineticEnergyTransfer.h
 
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstKineticEnergyTransfer.h:
+
+/Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/Constraints/ConstCollision.h:
 
 /Users/aatos/VSCode\ C++/project-management-test/Space-Combat-Game/src/Physics/RK4.h:
 
